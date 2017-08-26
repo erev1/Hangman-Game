@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Vegas Hangman</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<script src="assets/javascript/game.js" defer></script>
+</head>
+<body>
+		<div class="jumbotron text-center" style="background-color: #ffffff">
+			<img src="assets/images/vegas.png" style="width:300px">
+			<p class="rotated hangman">HANGMAN</p>
+			<p> Press any key to get started.</p>
+		</div>
+		<div class ="container">
+			<div class = "row">
+<!-- 				<div class = "col-md-3">
+					<img src="assets/images/cards.png" style="width:150px">
+				</div> -->
+				<div class = "col-md-4 col-md-offset-2 middlestats align-box" style="border: 2px solid black">
+					<p id="winsCount" class="lead">Wins </p>
+					<p class="lead">Current Word: </p>
+					<p id="wordSpaces" class="lead"></p>
+				</div>
+				<div class = "col-md-4 middlestats align-box" style = "border: 2px solid black">
+					<p class="lead">Number of guesses remaining: <span id="guessesRemaining" class="lead">6</span></p>
+					<p class="lead">Letters already guessed: </p>
+					<p class = "lead" id="lettersAlreadyGuessed">none</p>
+
+				</div>
+			</div>
+		</div>
+	
+<!-- 	<p>Press any key to get started.</p>
+	<p id="winsCount">Wins </p>
+	<p>Current Word: </p>
+	<p id="wordSpaces"></p>
+	<p>Number of guesses remaining: <span id="guessesRemaining">6</span></p>
+	<p>Letters already guessed: </p>
+	<p id="lettersAlreadyGuessed"> </p> -->
+
+</body>
+</html>

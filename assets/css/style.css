@@ -1,0 +1,31 @@
+.rotated {
+	/* Safari */
+	-webkit-transform: rotate(-5deg);
+
+/* Firefox */
+	-moz-transform: rotate(-5deg);
+
+/* IE */
+	-ms-transform: rotate(-5deg);
+
+/* Opera */
+	-o-transform: rotate(-5deg);
+}
+
+.hangman {
+	font-family: Impact, Charcoal, sans-serif;
+	position: relative;
+	top: -50px;
+	font-size: 40px !important;
+	color: #F5D327;
+
+}
+
+.middlestats {
+	font-family: Verdana, Geneva, sans-serif;
+
+}
+
+.align-box {
+    min-height: 190px;
+}
